@@ -3,7 +3,6 @@ import React, { Component } from 'react';
 // import styles from './App.scss';
 // import classNames from 'classnames/bind';
 // const cx = classNames.bind(styles);
-
 import Button from './components/Button';
 
 class App extends Component {
@@ -20,7 +19,7 @@ class App extends Component {
       //   <Square isBlue={isBlue}/>
       // </div>
       <div>
-        <Button />
+        <Button>네모</Button>
       </div>
     );
   }

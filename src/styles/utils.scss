@@ -1,12 +1,12 @@
 @import "~open-color/open-color";
 @import "~include-media/dist/include-media";
 
-$breakpoints:{
+$breakpoints: (
   small:376px,
   medium:768px,
   large:1024px,
   huge:1200px
-}
+);
 
 $size:80px;
 
