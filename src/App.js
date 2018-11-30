@@ -3,7 +3,8 @@ import React, { Component } from 'react';
 // import styles from './App.scss';
 // import classNames from 'classnames/bind';
 // const cx = classNames.bind(styles);
-import Button from './components/Button';
+// import Button from './components/Button';
+import StyledButton from './components/StyledButton';
 
 class App extends Component {
   render() {
@@ -18,8 +19,11 @@ class App extends Component {
       // <div>
       //   <Square isBlue={isBlue}/>
       // </div>
+      // <div>
+      //   <Button>네모</Button>
+      // </div>
       <div>
-        <Button>네모</Button>
+        <StyledButton big>버튼명</StyledButton>
       </div>
     );
   }
